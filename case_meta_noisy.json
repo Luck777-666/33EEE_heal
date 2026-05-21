@@ -1,0 +1,17 @@
+{
+  "case_id": "case_001_noisy",
+  "network": "IEEE 33‑bus 10kV distribution network",
+  "sampling_rate_hz": 10000,
+  "time_step_s": 0.0001,
+  "simulation_duration_s": 0.3,
+  "grounding_mode": "arc_suppression_coil",
+  "noise_mode": "noisy",
+  "K_noise": 1,
+  "noise_level": 0.15,
+  "noise_source": "Simulink Band‑Limited White Noise",
+  "sensor_ratio": 0.4,
+  "pv_nodes": 18,
+  "wt_nodes": 33,
+  "ev_nodes": 25,
+  "flexible_load_nodes": 30
+}
